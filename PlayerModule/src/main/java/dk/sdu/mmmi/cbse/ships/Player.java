@@ -1,4 +1,4 @@
-package dk.sdu.mmmi.cbse.playersystem;
+package dk.sdu.mmmi.cbse.ships;
 
 import dk.sdu.mmmi.cbse.common.data.Entity;
 

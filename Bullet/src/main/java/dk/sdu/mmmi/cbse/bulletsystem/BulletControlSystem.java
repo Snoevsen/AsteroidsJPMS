@@ -1,6 +1,6 @@
 package dk.sdu.mmmi.cbse.bulletsystem;
 
-import dk.sdu.cbse.enemysystem.Enemy;
+import dk.sdu.mmmi.cbse.ships.Enemy;
 import dk.sdu.mmmi.cbse.common.bullet.Bullet;
 import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;

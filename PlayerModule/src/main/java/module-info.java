@@ -8,9 +8,9 @@ module PlayerModule {
     requires CommonBullet;
     requires CommonAsteroids;
     uses dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
-    provides IGamePluginService with dk.sdu.mmmi.cbse.playersystem.PlayerPlugin;
-    provides IEntityProcessingService with dk.sdu.mmmi.cbse.playersystem.PlayerControlSystem;
-    provides IPostEntityProcessingService with dk.sdu.mmmi.cbse.playersystem.PlayerSpawner;
+    provides IGamePluginService with dk.sdu.mmmi.cbse.ships.PlayerPlugin;
+    provides IEntityProcessingService with dk.sdu.mmmi.cbse.ships.PlayerControlSystem;
+    provides IPostEntityProcessingService with dk.sdu.mmmi.cbse.ships.PlayerSpawner;
     
-    exports dk.sdu.mmmi.cbse.playersystem;
+    exports dk.sdu.mmmi.cbse.ships;
 }
