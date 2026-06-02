@@ -23,8 +23,8 @@ public interface IPostEntityProcessingService {
      * <li>Entities flagged for removal (or meeting specific post-processing criteria) have been handled or removed.</li>
      * </ul>
      *
-     * @param gameData   the current state and configuration data of the game
-     * @param world      the game world containing all current entities
+     * @param gameData the current state and configuration data of the game
+     * @param world the game world containing all current entities
      * @param gameEvents the events triggered during this frame or game tick
      */
     void process(GameData gameData, World world, GameEvents gameEvents);

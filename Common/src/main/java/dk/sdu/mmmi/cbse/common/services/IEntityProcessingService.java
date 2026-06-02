@@ -25,8 +25,8 @@ public interface IEntityProcessingService {
      * <li>The game continues to run.</li>
      * </ul>
      *
-     * @param gameData   the current state and configuration data of the game
-     * @param world      the game world containing all current entities
+     * @param gameData the current state and configuration data of the game
+     * @param world the game world containing all current entities
      * @param gameEvents the events triggered during this frame or game tick
      */
     void process(GameData gameData, World world, GameEvents gameEvents);

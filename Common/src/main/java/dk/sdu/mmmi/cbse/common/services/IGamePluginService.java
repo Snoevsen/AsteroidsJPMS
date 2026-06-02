@@ -43,7 +43,7 @@ public interface IGamePluginService {
      * </ul>
      *
      * @param gameData the current state and configuration data of the game
-     * @param world    the game world from which plugin entities will be removed
+     * @param world the game world from which plugin entities will be removed
      */
     void stop(GameData gameData, World world);
 }
