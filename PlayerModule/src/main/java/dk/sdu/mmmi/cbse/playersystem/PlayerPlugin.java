@@ -12,15 +12,12 @@ public class PlayerPlugin implements IGamePluginService {
 
     @Override
     public void start(GameData gameData, World world) {
-
-        // Add entities to the world
         player = spawner.spawnPlayer(gameData);
         world.addEntity(player);
     }
 
     @Override
     public void stop(GameData gameData, World world) {
-        // Remove entities
         world.removeEntity(player);
     }
 
